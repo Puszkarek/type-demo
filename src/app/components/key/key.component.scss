@@ -1,0 +1,38 @@
+.container {
+  position: absolute;
+
+  left: 50%;
+  bottom: 30px;
+
+  transform: translateX(-50%);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.key {
+  margin: 10px;
+
+  height: 40px;
+  min-width: 40px;
+
+  padding: 10px;
+}
+
+$text-padding: 15px;
+.text-container {
+  padding: #{$text-padding};
+  margin-bottom: 30px;
+
+  position: relative;
+}
+
+.target-text {
+  opacity: 0.5;
+}
+.typewritten-text {
+  position: absolute;
+  top: #{$text-padding};
+}
